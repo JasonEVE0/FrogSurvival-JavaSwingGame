@@ -8,8 +8,8 @@ To play either:
 1. run the JAR 
 
 2. clone the repo with git clone git@github.com:JasonEVE0/FrogSurvival-JavaSwingGame.git  
-run the following commands in root folder:
-javac src/Frog/*.java
-java src/Frog/GameMain
+run the following commands in root folder:  
+javac src/Frog/*.java  
+java src/Frog/GameMain  
 
 
