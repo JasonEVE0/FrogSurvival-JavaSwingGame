@@ -1,4 +1,4 @@
-package Frog;
+package src.Frog;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -34,7 +34,7 @@ public class Window extends JFrame {
         // background
         background = new JLabel();
         background.setBounds(0,0,517,537);
-        background.setIcon(new ImageIcon("background.png"));
+        background.setIcon(new ImageIcon("images/background.png"));
 
         // adding to frame
         this.addKeyListener(player);

@@ -1,4 +1,4 @@
-package Frog;
+package src.Frog;
 
 import javax.swing.*;
 import java.awt.event.KeyEvent;
@@ -16,10 +16,10 @@ public class Player extends JPanel implements KeyListener {
 
     public Player(){
         // player sprite
-        frog_front = new ImageIcon("frog_front.png");
-        frog_right = new ImageIcon("frog_right.png");
-        frog_down = new ImageIcon("frog_down.png");
-        frog_left = new ImageIcon("frog_left.png");
+        frog_front = new ImageIcon("images/frog_front.png");
+        frog_right = new ImageIcon("images/frog_right.png");
+        frog_down = new ImageIcon("images/frog_down.png");
+        frog_left = new ImageIcon("images/frog_left.png");
 
         frog = new JLabel(frog_front);
         this.add(frog);

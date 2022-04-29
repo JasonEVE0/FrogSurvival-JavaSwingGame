@@ -1,4 +1,4 @@
-package Frog;
+package src.Frog;
 
 import javax.swing.*;
 import java.util.Random;
@@ -19,10 +19,10 @@ public class Enemy extends JPanel {
         random = new Random();
 
         // the enemy sprite
-        lizard_front = new ImageIcon("lizard_front.png");
-        lizard_right = new ImageIcon("lizard_right.png");
-        lizard_down = new ImageIcon("lizard_down.png");
-        lizard_left = new ImageIcon("lizard_left.png");
+        lizard_front = new ImageIcon("images/lizard_front.png");
+        lizard_right = new ImageIcon("images/lizard_right.png");
+        lizard_down = new ImageIcon("images/lizard_down.png");
+        lizard_left = new ImageIcon("images/lizard_left.png");
 
         lizard = new JLabel();
         lizard.setIcon(lizard_front);

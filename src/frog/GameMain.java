@@ -1,4 +1,4 @@
-package Frog;
+package src.Frog;
 
 public class GameMain {
 

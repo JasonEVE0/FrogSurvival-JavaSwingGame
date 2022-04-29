@@ -1,4 +1,4 @@
-package Frog;
+package src.Frog;
 
 import javax.swing.*;
 import java.awt.*;
